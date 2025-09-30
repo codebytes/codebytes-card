@@ -1,8 +1,15 @@
-import { defineConfig } from "eslint/config"; // eslint-disable-line n/no-unpublished-import
-import rg from "eslint-config-reverentgeek"; // eslint-disable-line n/no-unpublished-import
-
-export default defineConfig( {
-	extends: [ rg.configs["node-esm"] ],
-	rules: {
+export default [
+	{
+		languageOptions: {
+			ecmaVersion: 2022,
+			sourceType: "module"
+		},
+		rules: {
+			"indent": ["error", "tab"],
+			"quotes": ["error", "double"],
+			"semi": ["error", "always"],
+			"no-unused-vars": "error",
+			"no-console": "off"
+		}
 	}
-} );
+];

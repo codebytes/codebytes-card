@@ -1,11 +1,11 @@
-# ReverentGeek Calling Card
+# Chris Ayers Calling Card
 
 In case you ever need my information and all you have is a terminal and `npm`.
 
 ## Usage
 
 ```bash
-npx reverentgeek
+npx codebytes
 ```
 
 ## Make It Yours

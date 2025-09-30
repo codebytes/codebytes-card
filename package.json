@@ -1,25 +1,28 @@
 {
-	"name": "reverentgeek",
+	"name": "codebytes",
 	"version": "3.0.0",
-	"description": "My personal calling card.",
+	"description": "Chris Ayers' personal calling card.",
 	"main": "./bin/card.js",
 	"bin": {
-		"reverentgeek": "./bin/card.js"
+		"codebytes": "./bin/card.js"
 	},
 	"type": "module",
 	"scripts": {
 		"lint": "eslint bin/*.js art/*.js"
 	},
 	"keywords": [
-		"David",
-		"Neal",
-		"reverentgeek"
+		"Chris",
+		"Ayers",
+		"codebytes",
+		"devops",
+		"azure",
+		"microsoft"
 	],
-	"author": "David Neal <david@reverentgeek.com> (https://reverentgeek.com)",
+	"author": "Chris Ayers <chris@chris-ayers.com> (https://chris-ayers.com)",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/reverentgeek/reverentgeek-card.git"
+		"url": "https://github.com/codebytes/codebytes.git"
 	},
 	"dependencies": {
 		"boxen": "^8.0.1",
@@ -27,7 +30,6 @@
 		"gradient-string": "^3.0.0"
 	},
 	"devDependencies": {
-		"eslint": "^9.36.0",
-		"eslint-config-reverentgeek": "^6.3.0"
+		"eslint": "^9.36.0"
 	}
 }
